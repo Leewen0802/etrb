@@ -38,10 +38,10 @@ def helpmessage():
 ╠➥ 「Speed」查看機器速度
 ╠➥ 「Set」查看設定
 ╠➥ 「Reread On/Off」查看收回 打開/關閉
-╚═〘 Credits By: ©CoCo™  〙
+╚═〘 Credits By: ©Eagle科技™  〙
 """
     return helpMessage
-admin=['u28d781fa3ba9783fd5144390352b0c24',clMID]
+admin=['ud88795856d91ef52b208b325ff267c56',clMID]
 def lineBot(op):
     try:
         if op.type == 0:
@@ -66,7 +66,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     cl.sendMessage(to, str(helpMessage))
-                    cl.sendContact(to, "u28d781fa3ba9783fd5144390352b0c24")
+                    cl.sendContact(to, "ud88795856d91ef52b208b325ff267c56")
                 elif text.lower() == 'speed':
                     time0 = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
                     str1 = str(time0)
